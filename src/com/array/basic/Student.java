@@ -17,7 +17,7 @@ public class Student {
 
             average += d;
         }
-        return  average;
+        return  average/studentsGrades.size();
     }
 
 
